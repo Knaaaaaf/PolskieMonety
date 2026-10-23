@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "polskie_monety",
+  "version": "${version}",
+  "name": "Polskie Monety",
+  "description": "Dodaje monety 1 zl, 50 zl i 100 zl oraz HUD pokazujacy wartosc monet w ekwipunku.",
+  "authors": ["Kna"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.kna.polskimonety.PolskieMonety"],
+    "client": ["pl.kna.polskimonety.PolskieMonetyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
